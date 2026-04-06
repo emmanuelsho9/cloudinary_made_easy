@@ -1,0 +1,15 @@
+# .pubignore
+
+# Ignore common build and tool files (same as typical .gitignore)
+.dart_tool/
+.packages
+.pub/
+build/
+*.log
+
+# Do NOT ignore the LICENSE file (this overrides .gitignore)
+!LICENSE
+
+# You can also keep other useful ignores
+example/build/
+test/.dart_tool/
