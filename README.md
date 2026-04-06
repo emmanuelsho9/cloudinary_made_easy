@@ -25,7 +25,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  cloudinary_made_easy: ^0.1.0
+  cloudinary_made_easy: ^0.1.1
 ```
 
 Then run:

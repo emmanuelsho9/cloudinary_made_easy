@@ -1,6 +1,6 @@
 name: cloudinary_made_easy
 description: A lightweight and easy Flutter package to upload images/files to Cloudinary using unsigned presets with progress tracking and image_picker support.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/emmanuelsho9/cloudinary_made_easy.git
 repository: https://github.com/emmanuelsho9/cloudinary_made_easy.git
 
