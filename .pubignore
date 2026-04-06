@@ -1,15 +1,21 @@
-# .pubignore
+# .pubignore - Controls what gets published to pub.dev
 
-# Ignore common build and tool files (same as typical .gitignore)
+# Ignore common development and build files
 .dart_tool/
 .packages
 .pub/
 build/
+coverage/
 *.log
 
-# Do NOT ignore the LICENSE file (this overrides .gitignore)
+# Ignore the example app's build artifacts (but keep the example source code)
+example/build/
+example/.dart_tool/
+example/ios/Pods/
+example/android/.gradle/
+
+# Explicitly include the LICENSE file (this overrides .gitignore)
 !LICENSE
 
-# You can also keep other useful ignores
-example/build/
-test/.dart_tool/
+# Optional: If you have other files you don't want to publish
+# !.github/          # Uncomment if you want to exclude GitHub workflows
