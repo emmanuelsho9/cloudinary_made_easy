@@ -140,9 +140,9 @@ Check the [`example/`](example/) folder for a complete working demo with:
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License.
+This package is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
